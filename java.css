@@ -1,0 +1,160 @@
+/* Đối với các thiết bị có độ rộng màn hình 768px trở lên (máy tính) */
+@media (min-width: 768px) {
+  /* Thêm các quy tắc CSS cho máy tính ở đây */
+  body {
+      font-size: 16px;
+  }
+  /* Thay đổi các kích thước, vị trí hoặc bố cục cho máy tính ở đây */
+}
+
+/* Đối với các thiết bị có độ rộng màn hình dưới 768px (điện thoại di động) */
+@media (max-width: 767px) {
+  /* Thêm các quy tắc CSS cho điện thoại di động ở đây */
+  body {
+      font-size: 14px;
+  }
+  /* Thay đổi các kích thước, vị trí hoặc bố cục cho điện thoại di động ở đây */
+}
+
+#wrapper {
+  margin: auto;
+  width: 1390px;
+  height: auto;
+  overflow: hidden;
+}
+body {
+  background-color: #212529;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: #121517;
+  height: 150px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+header img {
+  width: 20%;
+}
+menu ul img {
+  width: 7%;
+}
+menu {
+  background-color: #343a40;
+  display: flex;
+  margin: 0; 
+}
+menu ul {
+  padding: 0; 
+  list-style: none;
+  display: flex;
+  justify-content: start;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff0f5;
+  font-size: medium;
+  padding: 10px;
+}
+section {
+  background-color: white;
+  padding-top: 10px;
+}
+section article span {
+  padding-top: 15px;
+  padding-left:10px;
+  color:black ;
+  display : flex;
+}
+section article h2 {
+  padding-top: 15px;
+  padding-left:10px;
+  color: black;
+}
+section article h3.vd {
+  padding-top: 15px;
+  padding-left:10px;
+  color: gray;
+}
+section article h3{
+  padding-top: 15px;
+  padding-left:10px;
+  color: black;
+}
+section article img {
+  padding-left: 200px;
+  
+}
+section article img.vd1 {
+  margin-left: 90px; 
+}
+footer {
+  background-color: #121517;
+  height: 100px;
+}
+section ul li {
+  list-style: none;
+  color: black;
+}
+section ul li a {
+  color: rgb(25, 25, 130);
+}
+section ul li a:hover {
+ text-decoration: underline;
+}
+header input {
+  background-color: #343a40;
+  margin-right: 50px;
+}
+input {
+  display: flex;
+  width: 500px; 
+  height: 25px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  padding: 5px;
+}
+
+menu ul li a:hover {
+  border-radius: 1px white;
+}
+footer {
+  background: #343a40;
+  height: 200px;
+  display: flex;
+}
+footer .end {
+  color: #6c757d!important;
+}
+.like {
+  padding-top: 20px;
+  padding-left: 50px;
+}
+.end{
+  padding-left: 40px;
+}
+/* Menu chỉnh sửa */
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  background-color: #2c3e50;
+  padding: 10px 0;
+  margin: 0;
+  list-style: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu li {
+  margin: 0 15px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
